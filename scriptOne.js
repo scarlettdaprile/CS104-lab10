@@ -1,10 +1,10 @@
 //Question 1
-function greetUser() {
-    let fName = document.getElementbyID('input').value
 
-    document.getElementById('output').innerText = "Hello, " +
-    fName;
-}
+    function greetUser() {
+        var name = document.getElementById('nameInput').value;
+        var message = 'Hello, ' + name + '! Welcome.';
+        document.getElementById('output').innerText = message;
+    }
 
 //Question 2
 function changeText() {
