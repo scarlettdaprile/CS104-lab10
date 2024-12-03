@@ -23,6 +23,31 @@ function addNumbers() {
 
 //Question 4
 
+ function updateTitle() {
+    const newTitle = document.getElementById('newTitle').value;
+    document.getElementById('title').innerText = newTitle;
+}
+
 //Question 5
 
-//Question 6
+function concatenateText() {
+    const text1 = document.getElementById('input1').value;
+    const text2 = document.getElementById('input2').value;
+
+    const combined = text1 + " " + text2;
+
+    document.getElementById('combinedText').innerText = combined;
+}
+
+
+//question 6
+        const button = document.getElementById('changeBgButton');
+        const colorBox = document.getElementById('colorBox');
+
+        button.addEventListener('click', function() {
+            
+            colorBox.style.backgroundColor = 'blue';
+        });
+
+
+
